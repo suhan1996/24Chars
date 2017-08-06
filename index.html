@@ -44,7 +44,7 @@
 
 <script src="js/xg.min.rgba.js"></script>
 <script src='js/libs/stats.min.js'></script>
-<script src="js/mobile.js"></script>
+<!--<script src="js/mobile.js"></script>-->
 
 <script>
 
@@ -165,7 +165,6 @@
 
         camera = new XG.PerspectiveCamera( 65, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 2000 );
 
-        controls = new XG.DeviceOrientationControls( camera );
 
         camera.position.set( 0, 0, 200 );
 
@@ -515,9 +514,6 @@
 
     function animate() {
 
-
-
-        controls.update();
 
 
         requestAnimationFrame( animate );
