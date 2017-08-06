@@ -39,8 +39,9 @@
 </head>
 
 <body>
-<div id="loading">One Second...</div>
+<!--<div id="loading">One Second...</div>-->
 
+<script src="js/mobile.js"></script>
 
 <script src="js/xg.min.rgba.js"></script>
 <script src='js/libs/stats.min.js'></script>
@@ -512,7 +513,13 @@
     function animate() {
 
         requestAnimationFrame( animate );
-        render();
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            // is mobile..
+
+        }
+        else{
+            render();
+        }
 
         stats.update();
 
