@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8c72632-d48c-4c96-8c7c-bcc0b90c458e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mobile.js" afterPath="$PROJECT_DIR$/js/mobile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,9 +21,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="517" column="21" lean-forward="true" selection-start-line="517" selection-start-column="21" selection-end-line="517" selection-end-column="21" />
+            <state relative-caret-position="41">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xg.min.rgba.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/xg.min.rgba.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-163">
+              <caret line="12" column="40816" lean-forward="false" selection-start-line="12" selection-start-column="40801" selection-end-line="12" selection-end-column="40816" />
+              <folding>
+                <element signature="n#!!doc;n#getHttpRequest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/three.js webgl - controls - deviceorientation.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
-              <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+              <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -40,8 +53,8 @@
       <file leaf-file-name="mobile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,13 +62,6 @@
       </file>
       <file leaf-file-name="test.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/textures/sprites/fonts/test.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Georgia.sdf.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textures/sprites/fonts/Georgia.sdf.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -125,7 +131,15 @@
       <find>loading</find>
       <find>render</find>
       <find>renderer</find>
+      <find>camera</find>
+      <find>DeviceOrientationControls</find>
+      <find>camera =</find>
+      <find>XG</find>
+      <find>PerspectiveCamera</find>
+      <find>ForwardRenderer</find>
       <find>stat</find>
+      <find>controls</find>
+      <find>contr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,8 +152,8 @@
         <option value="$PROJECT_DIR$/js/xg.min.rgba.js" />
         <option value="$PROJECT_DIR$/js/text_rendering.html" />
         <option value="$PROJECT_DIR$/text_rendering.html" />
-        <option value="$PROJECT_DIR$/js/mobile.js" />
         <option value="$PROJECT_DIR$/three.js webgl - controls - deviceorientation.html" />
+        <option value="$PROJECT_DIR$/js/mobile.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -195,6 +209,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,12 +362,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500756996593</updated>
       <workItem from="1500757003952" duration="17970000" />
-      <workItem from="1501994688356" duration="907000" />
+      <workItem from="1501994688356" duration="1355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18877000" />
+    <option name="totallyTimeSpent" value="19325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
@@ -443,16 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/xg.min.rgba.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#getHttpRequest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/textures/sprites/fonts/myfont.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -495,24 +517,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/xg.min.rgba.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="12" column="40816" lean-forward="false" selection-start-line="12" selection-start-column="40801" selection-end-line="12" selection-end-column="40816" />
+          <folding>
+            <element signature="n#!!doc;n#getHttpRequest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/three.js webgl - controls - deviceorientation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="517" column="21" lean-forward="true" selection-start-line="517" selection-start-column="21" selection-end-line="517" selection-end-column="21" />
+        <state relative-caret-position="41">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>

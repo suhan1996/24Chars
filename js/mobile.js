@@ -8,7 +8,7 @@
  * W3C Device Orientation control (http://w3c.github.io/deviceorientation/spec-source-orientation.html)
  */
 
-THREE.DeviceOrientationControls = function( object ) {
+XG.DeviceOrientationControls = function( object ) {
 
     var scope = this;
 
